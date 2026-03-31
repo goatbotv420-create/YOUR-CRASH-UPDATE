@@ -397,7 +397,7 @@ module.exports = function (api, threadModel, userModel, dashBoardModel, globalMo
                                         return;
                                 if (!hideNotiMessage.commandNotFound) {
                                         if (!commandName) {
-                                                return await message.reply(`That's only the prefix. Type ${prefix}help to see commands.`);
+                                                return await message.reply(`— ℹ️ This is my prefix. Type ${prefix}help to explore all commands.`);
                                         }
                                         
                                         // Optimized command suggestion with caching and quick checks
